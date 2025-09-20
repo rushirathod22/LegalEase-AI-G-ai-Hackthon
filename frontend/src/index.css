@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* LegalEase AI Design System - Professional Legal Tech Interface
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 220 25% 97%;
+    --foreground: 215 25% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 12%;
+
+    /* Primary - Deep navy blue */
+    --primary: 220 85% 25%;
+    --primary-foreground: 0 0% 98%;
+
+    /* Secondary - Royal blue */
+    --secondary: 213 94% 68%;
+    --secondary-foreground: 220 85% 8%;
+
+    --muted: 220 40% 95%;
+    --muted-foreground: 215 16% 46%;
+
+    /* Accent - Bright cyan */
+    --accent: 190 95% 55%;
+    --accent-foreground: 220 85% 8%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 220 32% 88%;
+    --input: 220 32% 91%;
+    --ring: 220 85% 25%;
+
+    /* Blue legal colors */
+    --legal-warning: 38 92% 50%;
+    --legal-warning-foreground: 25 85% 8%;
+    --legal-safe: 213 94% 68%;
+    --legal-safe-foreground: 0 0% 100%;
+    --legal-highlight: 190 95% 55%;
+    --legal-highlight-foreground: 220 85% 8%;
+
+    /* Blue gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(220 85% 25%), hsl(213 94% 68%));
+    --gradient-secondary: linear-gradient(135deg, hsl(213 94% 68%), hsl(190 95% 55%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(220 25% 97%));
+    --gradient-hero: linear-gradient(135deg, hsl(220 85% 25%) 0%, hsl(213 94% 68%) 50%, hsl(190 95% 55%) 100%);
+    
+    /* Blue shadows */
+    --shadow-card: 0 4px 6px -1px hsl(220 85% 25% / 0.12), 0 2px 4px -1px hsl(220 85% 25% / 0.08);
+    --shadow-elevated: 0 10px 15px -3px hsl(220 85% 25% / 0.15), 0 4px 6px -2px hsl(220 85% 25% / 0.1);
+    --shadow-glow: 0 0 20px hsl(213 94% 68% / 0.3);
+    
+    /* Smooth transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 220 28% 8%;
+    --foreground: 0 0% 98%;
+
+    --card: 220 25% 12%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 220 25% 12%;
+    --popover-foreground: 0 0% 98%;
+
+    /* Dark mode blue colors */
+    --primary: 213 94% 68%;
+    --primary-foreground: 220 28% 8%;
+
+    --secondary: 190 95% 55%;
+    --secondary-foreground: 220 85% 8%;
+
+    --muted: 220 25% 16%;
+    --muted-foreground: 215 16% 65%;
+
+    --accent: 200 100% 70%;
+    --accent-foreground: 220 28% 8%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 220 25% 18%;
+    --input: 220 25% 16%;
+    --ring: 213 94% 68%;
+
+    /* Dark mode blue legal colors */
+    --legal-warning: 38 92% 50%;
+    --legal-warning-foreground: 25 85% 8%;
+    --legal-safe: 213 94% 68%;
+    --legal-safe-foreground: 220 28% 8%;
+    --legal-highlight: 190 95% 55%;
+    --legal-highlight-foreground: 220 28% 8%;
+
+    /* Dark mode blue gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(213 94% 68%), hsl(200 100% 70%));
+    --gradient-secondary: linear-gradient(135deg, hsl(190 95% 55%), hsl(200 100% 70%));
+    --gradient-card: linear-gradient(145deg, hsl(220 25% 12%), hsl(220 28% 8%));
+    --gradient-hero: linear-gradient(135deg, hsl(213 94% 68%) 0%, hsl(200 100% 70%) 50%, hsl(190 95% 55%) 100%);
+    
+    /* Dark mode blue shadows */
+    --shadow-card: 0 4px 6px -1px hsl(0 0% 0% / 0.25), 0 2px 4px -1px hsl(0 0% 0% / 0.15);
+    --shadow-elevated: 0 10px 15px -3px hsl(0 0% 0% / 0.3), 0 4px 6px -2px hsl(0 0% 0% / 0.2);
+    --shadow-glow: 0 0 20px hsl(213 94% 68% / 0.4);
+
+    --sidebar-background: 220 28% 8%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 213 94% 68%;
+    --sidebar-primary-foreground: 220 28% 8%;
+    --sidebar-accent: 220 25% 16%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 220 25% 18%;
+    --sidebar-ring: 213 94% 68%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
