@@ -67,12 +67,15 @@ npm install
 # Create a .env file and add:
 # AI_API_KEY=your_key_here
 npm run dev
+```
 Setup Frontend
 
 Bash
 cd ../frontend
 npm install
 npm run dev
+
+```
 ```
 📂 Project Structure
 Plaintext
