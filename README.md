@@ -57,3 +57,9 @@
    ```bash
    git clone [https://github.com/rushirathod22/LegalEase-AI-G-ai-Hackthon.git](https://github.com/rushirathod22/LegalEase-AI-G-ai-Hackthon.git)
    cd LegalEase-AI-G-ai-Hackthon
+
+   cd backend
+npm install
+# Create a .env file and add:
+# AI_API_KEY=your_key_here
+npm run dev
