@@ -59,7 +59,26 @@
    cd LegalEase-AI-G-ai-Hackthon
 
    cd backend
+Setup Backend
+
+Bash
+cd backend
 npm install
 # Create a .env file and add:
 # AI_API_KEY=your_key_here
 npm run dev
+Setup Frontend
+
+Bash
+cd ../frontend
+npm install
+npm run dev
+📂 Project Structure
+Plaintext
+LegalEase-AI-G-ai-Hackthon/
+├── frontend/     # Next.js UI Components
+├── backend/      # API Routes & AI Logic
+├── docs/         # Documentation & Assets
+└── README.md     # Project Overview
+👨‍💻 Team
+Rushikesh Rathod – GitHub | Project Lead & Fullstack Developer
