@@ -1,166 +1,59 @@
+# LegalEase AI-G
+
+🚀 **Hackathon Project** | AI-powered legal assistant for accessible and simplified legal guidance.
+
+![GitHub repo size](https://img.shields.io/github/repo-size/rushirathod22/LegalEase-AI-G-ai-Hackthon)
+![GitHub stars](https://img.shields.io/github/stars/rushirathod22/LegalEase-AI-G-ai-Hackthon?style=social)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ---
 
-````markdown
-# LegalEase AI-G  
+## 📌 Overview
 
-🚀 **Hackathon Project** | AI-powered legal assistant for accessible and simplified legal guidance.  
+**LegalEase AI-G** is an AI-powered platform designed to bridge the gap between complex legal jargon and everyday understanding. Developed during a hackathon, it aims to make legal information accessible to everyone.
 
-![GitHub repo size](https://img.shields.io/github/repo-size/rushirathod22/LegalEase-AI-G-ai-Hackthon)  
-![GitHub stars](https://img.shields.io/github/stars/rushirathod22/LegalEase-AI-G-ai-Hackthon?style=social)  
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)  
+### Key Capabilities:
+* **Natural Language Queries:** Ask legal questions and get answers in plain English.
+* **Document Drafting:** Generate common legal agreements and contracts instantly.
+* **Jargon Simplifier:** Breakdown "legalese" into easy-to-read summaries.
+* **Automation:** Save hours of manual research by automating repetitive legal tasks.
 
----
-
-## 📌 Overview  
-
-LegalEase AI-G is an **AI-powered legal platform** designed during a hackathon to simplify access to legal knowledge.  
-It helps users:  
-- Ask natural language questions and get simplified legal answers  
-- Generate common legal documents (agreements, contracts, etc.)  
-- Understand complex legal jargon in **plain English**  
-- Save time by automating repetitive legal tasks  
-
-⚠️ *Disclaimer: This project is for educational purposes only and should not be considered professional legal advice.*  
+> [!WARNING]
+> **Disclaimer:** This project is for educational purposes only and does not constitute professional legal advice.
 
 ---
 
-## ✨ Features  
+## ✨ Features
 
-- 🧠 AI-driven legal Q&A  
-- 📄 Smart legal document drafting  
-- 🌍 Option to adapt for regions/jurisdictions (customizable)  
-- 🕒 Query history & past interactions  
-- 🔐 Secure and configurable environment  
-
----
-
-## 🛠 Tech Stack  
-
-**Frontend:** React / Next.js, Tailwind CSS  
-**Backend:** Node.js / Express  
-**AI / NLP:** OpenAI API (or other LLMs)  
-**Deployment:** Vercel (frontend), Node backend hosting  
+* 🧠 **AI-driven Legal Q&A:** Context-aware responses to legal inquiries.
+* 📄 **Smart Drafting:** Template-based document generation.
+* 🌍 **Jurisdiction Aware:** Option to adapt logic for specific regional laws.
+* 🕒 **Interaction History:** Keep track of your past queries and documents.
+* 🔐 **Secure Environment:** Configurable environment for data privacy.
 
 ---
 
-## 🚀 Getting Started  
+## 🛠 Tech Stack
 
-### Prerequisites  
-- Node.js v14+  
-- npm / yarn  
-- Git  
-- API Key for OpenAI (or your AI provider)  
-
-### Installation  
-
-```bash
-# Clone repo
-git clone https://github.com/rushirathod22/LegalEase-AI-G-ai-Hackthon.git
-cd LegalEase-AI-G-ai-Hackthon
-````
-
-#### Install dependencies
-
-Frontend:
-
-```bash
-cd frontend
-npm install
-```
-
-Backend:
-
-```bash
-cd backend
-npm install
-```
-
-### Running locally
-
-Backend:
-
-```bash
-cd backend
-npm run dev
-```
-
-Frontend:
-
-```bash
-cd frontend
-npm run dev
-```
-
-Now open 👉 `http://localhost:3000`
+| Layer | Technology |
+| :--- | :--- |
+| **Frontend** | React / Next.js, Tailwind CSS |
+| **Backend** | Node.js / Express |
+| **AI / NLP** | OpenAI API (GPT-4) |
+| **Deployment** | Vercel / Render |
 
 ---
 
-## ⚙️ Environment Variables
+## 🚀 Getting Started
 
-Create a `.env` file in **backend**:
+### Prerequisites
+* Node.js (v18 or higher)
+* npm or yarn
+* An OpenAI API Key
 
-```
-AI_API_KEY=your_openai_api_key_here
-PORT=5000
-```
+### Installation
 
-Frontend `.env.local` (if needed):
-
-```
-NEXT_PUBLIC_BACKEND_URL=http://localhost:5000
-```
-
----
-
-## 📂 Folder Structure
-
-```
-LegalEase-AI-G-ai-Hackthon/
-│
-├── frontend/       # React/Next.js UI
-├── backend/        # Node.js API + AI logic
-├── README.md
-└── LICENSE
-```
-
----
-
-## 👨‍💻 Contributing
-
-1. Fork the repo
-2. Create a branch (`git checkout -b feature-name`)
-3. Commit changes (`git commit -m "Added feature X"`)
-4. Push (`git push origin feature-name`)
-5. Open a Pull Request
-
----
-
-## 🧑‍🤝‍🧑 Team
-
-* **Rushikesh Rathod** – Project Lead / AI & Fullstack
-* Team Members (add here if applicable)
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgements
-
-* Hackathon organizers & mentors
-* OpenAI / LLM providers
-* All open-source contributors
-
----
-
-```
-
----
-
-👉 Do you want me to also *<img width="1888" height="924" alt="image" src="https://github.com/user-attachments/assets/d802f2b6-d5ce-4994-91ba-481f88826641" />
-*add screenshots / demo GIFs section** to the README so it looks even more professional on GitHub?
-```
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/rushirathod22/LegalEase-AI-G-ai-Hackthon.git](https://github.com/rushirathod22/LegalEase-AI-G-ai-Hackthon.git)
+   cd LegalEase-AI-G-ai-Hackthon
