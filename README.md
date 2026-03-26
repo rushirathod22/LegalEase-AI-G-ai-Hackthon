@@ -73,6 +73,7 @@ Bash
 cd ../frontend
 npm install
 npm run dev
+```
 📂 Project Structure
 Plaintext
 LegalEase-AI-G-ai-Hackthon/
@@ -80,5 +81,8 @@ LegalEase-AI-G-ai-Hackthon/
 ├── backend/      # API Routes & AI Logic
 ├── docs/         # Documentation & Assets
 └── README.md     # Project Overview
+```
+```
 👨‍💻 Team
 Rushikesh Rathod – GitHub | Project Lead & Fullstack Developer
+```
