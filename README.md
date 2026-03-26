@@ -1,5 +1,4 @@
-Got it 👍
-Here’s a **ready-to-upload `README.md` file** for your repo **LegalEase-AI-G-ai-Hackthon**. Just copy this into your project root as `README.md` and push it to GitHub.
+
 
 ---
 
